@@ -1,0 +1,32 @@
+{
+  "name": "check.js",
+  "version": "1.0.0",
+  "description": "check.js: A comprehensive npm package for validating data inputs and ensuring data integrity with ease and flexibility.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "check.js",
+    "Validation",
+    "Data integrity",
+    "Input validation",
+    "Data accuracy",
+    "Data validation",
+    "Type checking",
+    "Form validation",
+    "Data verification",
+    "Field validation",
+    "Data validation library"
+  ],
+  "author": "Jagroop <jagroopofficial2000@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
