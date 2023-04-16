@@ -8,6 +8,14 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jagroop2000/check"
+  },
+  "bugs": {
+    "url": "https://github.com/Jagroop2000/check"
+  },
+  "homepage": "https://github.com/Jagroop2000/check#readme",
   "keywords": [
     "check.js",
     "Validation",
