@@ -1,3 +1,10 @@
+import {
+  isHave,
+  countOccurrence,
+  isIdentical,
+  haveSpecialCharacters,
+  isEmpty,
+} from "./subchecks/strings/finding";
 import { isString } from "./subchecks/strings/isString";
 import {
   maxLength,
@@ -10,6 +17,11 @@ const check = {
   maxLength,
   length,
   lengthOfCharacters,
+  isHave,
+  countOccurrence,
+  isIdentical,
+  haveSpecialCharacters,
+  isEmpty,
 };
 
 export default check;
