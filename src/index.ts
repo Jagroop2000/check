@@ -1,4 +1,12 @@
 import {
+  isValidFirstName,
+  isValidLastName,
+  isPasswordSecure,
+  isEmailValid,
+  isBetween,
+  isRequired,
+} from "./subchecks/form/form";
+import {
   isHave,
   countOccurrence,
   isIdentical,
@@ -22,6 +30,12 @@ const check = {
   isIdentical,
   haveSpecialCharacters,
   isEmpty,
+  isValidFirstName,
+  isValidLastName,
+  isPasswordSecure,
+  isEmailValid,
+  isBetween,
+  isRequired,
 };
 
 export default check;
